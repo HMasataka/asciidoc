@@ -73,6 +73,10 @@ end
 |セル23
 |===
 
+== Foot Note
+
+声明その１。footnote:[この声明のついての明確化]
+
 === Reference
 
 https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation/
