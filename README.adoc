@@ -2,7 +2,7 @@
 
 [%hardbreaks]
 これはAsciiDockのテストです
-改行は+を付けるか`hardbreaks`を付けることで対応出決ます。
+改行は+を付けるか``hardbreaks``を付けることで対応出決ます。
 
 段落分けは改行を入れます。
 
@@ -46,6 +46,7 @@ func main() {
 ----
 
 [source,ruby]
+.app.rb
 ----
 require 'sinatra' // <1>
 
