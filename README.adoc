@@ -1,1 +1,77 @@
 = Ascii Doc
+
+[%hardbreaks]
+これはAsciiDockのテストです
+改行は+を付けるか`hardbreaks`を付けることで対応出決ます。
+
+段落分けは改行を入れます。
+
+== List1
+
+* Lv1
+** Lv2
+*** Lv3
+* Lv1
+
+== List2
+
+. Lv1
+.. Lv2
+... Lv3
+. Lv1
+
+== Label
+
+第一項::
+第一項の定義
+第二項::
+第二項の定義
+
+== Literal
+
+....
+error: The requested operation returned error: 1954 Forbidden search for defensive operations manual
+absolutely fatal: operation initiation lost in the dodecahedron of doom
+would you like to die again? y/n
+....
+
+[source,go]
+.main.go
+----
+package main
+
+func main() {
+    fmt.Println("Hello, World");
+}
+----
+
+[source,ruby]
+----
+require 'sinatra' // <1>
+
+get '/hi' do // <2>
+  "Hello World!" // <3>
+end
+----
+<1> Library import
+<2> URL mapping
+<3> HTTP response body
+
+== Table
+
+.テーブルタイトル
+|===
+|カラム名1 |カラム名2 |カラム名3 
+
+|セル11
+|セル12
+|セル13
+
+|セル21
+|セル22
+|セル23
+|===
+
+=== Reference
+
+https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation/
