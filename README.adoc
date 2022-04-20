@@ -77,6 +77,16 @@ end
 
 声明その１。footnote:[この声明のついての明確化]
 
+NOTE: ノートを示します
+
+TIP: Tipsです
+
+IMPORTANT: 重要事項です
+
+WARNING: 警告文です
+
+CAUTION: 注意を書きます
+
 === Reference
 
 https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation/
