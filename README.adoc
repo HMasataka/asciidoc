@@ -87,6 +87,12 @@ WARNING: 警告文です
 
 CAUTION: 注意を書きます
 
+== Number
+
+* X^2^
+
+* X~2~
+
 === Reference
 
 https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation/
